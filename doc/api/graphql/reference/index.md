@@ -16440,8 +16440,9 @@ Represents the access level of a relationship between a User and object that it 
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| <a id="accesslevelintegervalue"></a>`integerValue` | [`Int`](#int) | Integer representation of access level. |
-| <a id="accesslevelstringvalue"></a>`stringValue` | [`AccessLevelEnum`](#accesslevelenum) | String representation of access level. |
+| <a id="accesslevelhumanaccess"></a>`humanAccess` | [`String`](#string) | Human-readable display name for the access level. |
+| <a id="accesslevelintegervalue"></a>`integerValue` | [`Int`](#int) | Integer number of the access level. |
+| <a id="accesslevelstringvalue"></a>`stringValue` | [`AccessLevelEnum`](#accesslevelenum) | Enum string of the the access level. |
 
 ### `AccessLevelDeployKey`
 
@@ -24882,6 +24883,7 @@ Represents a member role.
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | <a id="memberrolebaseaccesslevel"></a>`baseAccessLevel` **{warning-solid}** | [`AccessLevel!`](#accesslevel) | **Introduced** in GitLab 16.5. **Status**: Experiment. Base access level for the custom role. |
+| <a id="memberrolecreatedat"></a>`createdAt` | [`Time!`](#time) | Timestamp of when the member role was created. |
 | <a id="memberroledescription"></a>`description` | [`String`](#string) | Description of the member role. |
 | <a id="memberroleeditpath"></a>`editPath` **{warning-solid}** | [`String!`](#string) | **Introduced** in GitLab 16.11. **Status**: Experiment. Web UI path to edit the custom role. |
 | <a id="memberroleenabledpermissions"></a>`enabledPermissions` **{warning-solid}** | [`CustomizablePermissionConnection!`](#customizablepermissionconnection) | **Introduced** in GitLab 16.5. **Status**: Experiment. Array of all permissions enabled for the custom role. |
@@ -35338,6 +35340,7 @@ Detailed representation of whether a GitLab merge request can be merged.
 | <a id="detailedmergestatusexternal_status_checks"></a>`EXTERNAL_STATUS_CHECKS` | Status checks must pass. |
 | <a id="detailedmergestatusjira_association"></a>`JIRA_ASSOCIATION` | Either the title or description must reference a Jira issue. |
 | <a id="detailedmergestatuslocked_lfs_files"></a>`LOCKED_LFS_FILES` | Merge request includes locked LFS files. |
+| <a id="detailedmergestatuslocked_paths"></a>`LOCKED_PATHS` | Merge request includes locked paths. |
 | <a id="detailedmergestatusmergeable"></a>`MERGEABLE` | Branch can be merged. |
 | <a id="detailedmergestatusneed_rebase"></a>`NEED_REBASE` | Merge request needs to be rebased. |
 | <a id="detailedmergestatusnot_approved"></a>`NOT_APPROVED` | Merge request must be approved before merging. |
@@ -36115,6 +36118,7 @@ Representation of mergeability check identifier.
 | <a id="mergeabilitycheckidentifierdraft_status"></a>`DRAFT_STATUS` | Checks whether the merge request is draft. |
 | <a id="mergeabilitycheckidentifierjira_association_missing"></a>`JIRA_ASSOCIATION_MISSING` | Checks whether the title or description references a Jira issue. |
 | <a id="mergeabilitycheckidentifierlocked_lfs_files"></a>`LOCKED_LFS_FILES` | Checks whether the merge request contains locked LFS files that are locked by users other than the merge request author. |
+| <a id="mergeabilitycheckidentifierlocked_paths"></a>`LOCKED_PATHS` | Checks whether the merge request contains locked paths. |
 | <a id="mergeabilitycheckidentifiermerge_request_blocked"></a>`MERGE_REQUEST_BLOCKED` | Checks whether the merge request is blocked. |
 | <a id="mergeabilitycheckidentifierneed_rebase"></a>`NEED_REBASE` | Checks whether the merge request needs to be rebased. |
 | <a id="mergeabilitycheckidentifiernot_approved"></a>`NOT_APPROVED` | Checks whether the merge request is approved. |

@@ -20,7 +20,7 @@ To use Code Suggestions, use one of these editor extensions:
 
 | IDE                                                                        | Extension                                                                                                                   |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Visual Studio Code (VS Code)                                               | [VS Code GitLab Workflow extension](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)             |
+| Visual Studio Code (VS Code)                                               | [GitLab Workflow for VS Code](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)             |
 | [GitLab Web IDE (VS Code in the Cloud)](../../../project/web_ide/index.md) | No configuration required.                                                                                                  |
 | Microsoft Visual Studio (2022 for Windows)                                 | [Visual Studio GitLab extension](https://marketplace.visualstudio.com/items?itemName=GitLab.GitLabExtensionForVisualStudio) |
 | JetBrains IDEs                                                             | [GitLab Duo Plugin for JetBrains](https://plugins.jetbrains.com/plugin/22325-gitlab-duo)                                    |
@@ -148,7 +148,7 @@ you can add support for it locally.
 Prerequisites:
 
 - You have installed and enabled the
-  [GitLab Workflow extension for VS Code](../../../../editor_extensions/visual_studio_code/index.md#download-the-extension).
+  [GitLab Workflow extension for VS Code](../../../../editor_extensions/visual_studio_code/index.md).
 - You have completed the [extension setup](https://gitlab.com/gitlab-org/gitlab-vscode-extension/#setup)
   instructions, and authorized the extension to access your GitLab account.
 

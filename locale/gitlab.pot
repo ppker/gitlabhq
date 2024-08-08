@@ -867,6 +867,12 @@ msgstr ""
 msgid "%{group_name}&%{epic_iid} &middot; created %{epic_created} by %{author}"
 msgstr ""
 
+msgid "%{host} could not be reached. %{cta}"
+msgstr ""
+
+msgid "%{host} reachable."
+msgstr ""
+
 msgid "%{host} sign-in from new location"
 msgstr ""
 
@@ -2228,9 +2234,6 @@ msgstr ""
 msgid "AI|Description is required"
 msgstr ""
 
-msgid "AI|Experiment"
-msgstr ""
-
 msgid "AI|Explain or Resolve with AI"
 msgstr ""
 
@@ -2745,6 +2748,12 @@ msgid "Access Git repositories or the API."
 msgstr ""
 
 msgid "Access Token"
+msgstr ""
+
+msgid "Access credentials expired. %{cta}"
+msgstr ""
+
+msgid "Access credentials not found. %{cta}"
 msgstr ""
 
 msgid "Access denied"
@@ -5431,6 +5440,9 @@ msgstr ""
 msgid "All paths are relative to the GitLab URL. Do not include %{relative_url_link_start}relative URLs%{relative_url_link_end}."
 msgstr ""
 
+msgid "All paths must be unlocked"
+msgstr ""
+
 msgid "All project members"
 msgstr ""
 
@@ -7787,6 +7799,12 @@ msgid "Authentication method updated"
 msgstr ""
 
 msgid "Authentication via WebAuthn device failed."
+msgstr ""
+
+msgid "Authentication with GitLab Cloud services failed: %{error}"
+msgstr ""
+
+msgid "Authentication with GitLab Cloud services succeeded."
 msgstr ""
 
 msgid "Author"
@@ -14754,6 +14772,12 @@ msgstr ""
 msgid "ContainerRegistry|This project's cleanup policy for tags is not enabled."
 msgstr ""
 
+msgid "ContainerRegistry|This tag points to a Docker manifest list, which references multiple container images"
+msgstr ""
+
+msgid "ContainerRegistry|This tag points to a OCI index, which references multiple container images"
+msgstr ""
+
 msgid "ContainerRegistry|To widen your search, change or remove the filters above."
 msgstr ""
 
@@ -15823,6 +15847,9 @@ msgid "CreateValueStreamForm|%{name} (default)"
 msgstr ""
 
 msgid "CreateValueStreamForm|'%{name}' Value Stream created"
+msgstr ""
+
+msgid "CreateValueStreamForm|'%{name}' Value Stream has been successfully created."
 msgstr ""
 
 msgid "CreateValueStreamForm|'%{name}' Value Stream saved"
@@ -17855,9 +17882,6 @@ msgstr ""
 msgid "Dependencies|Filtering unavailable"
 msgstr ""
 
-msgid "Dependencies|Job failed to generate the dependency list"
-msgstr ""
-
 msgid "Dependencies|Learn more about dependency paths"
 msgstr ""
 
@@ -17886,9 +17910,6 @@ msgid "Dependencies|Software Bill of Materials (SBOM) based on the %{linkStart}l
 msgstr ""
 
 msgid "Dependencies|Software Bill of Materials (SBOM) based on the latest successful scan of each project."
-msgstr ""
-
-msgid "Dependencies|The %{codeStartTag}dependency_scanning%{codeEndTag} job has failed and cannot generate the list. Please ensure the job is running properly and run the pipeline again."
 msgstr ""
 
 msgid "Dependencies|The component dependency path is based on the lock file. There may be several paths. In these cases, the longest path is displayed."
@@ -17925,9 +17946,6 @@ msgid "Dependencies|Toggle vulnerability list"
 msgstr ""
 
 msgid "Dependencies|Unknown path"
-msgstr ""
-
-msgid "Dependencies|Unsupported file(s) detected"
 msgstr ""
 
 msgid "Dependencies|Vulnerable components"
@@ -21847,30 +21865,6 @@ msgid "Experiment"
 msgstr ""
 
 msgid "Experiment features' settings not allowed."
-msgstr ""
-
-msgid "ExperimentBadge|An experiment is not yet production-ready, but is released for initial testing and feedback during development."
-msgstr ""
-
-msgid "ExperimentBadge|Are not supported and might not be documented."
-msgstr ""
-
-msgid "ExperimentBadge|Are subject to the GitLab Testing Agreement."
-msgstr ""
-
-msgid "ExperimentBadge|Could be changed or removed at any time."
-msgstr ""
-
-msgid "ExperimentBadge|Experiment"
-msgstr ""
-
-msgid "ExperimentBadge|Experiments:"
-msgstr ""
-
-msgid "ExperimentBadge|Might be unstable or cause data loss."
-msgstr ""
-
-msgid "ExperimentBadge|What's an experiment?"
 msgstr ""
 
 msgid "Experiments"
@@ -25996,9 +25990,6 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-msgid "Groups (%{count})"
-msgstr ""
-
 msgid "Groups API rate limits"
 msgstr ""
 
@@ -26421,6 +26412,12 @@ msgid "Heading 3"
 msgstr ""
 
 msgid "Heading 4"
+msgstr ""
+
+msgid "Heading 5"
+msgstr ""
+
+msgid "Heading 6"
 msgstr ""
 
 msgid "Health"
@@ -27251,6 +27248,9 @@ msgid "If you recently signed in and recognize the IP address, you may disregard
 msgstr ""
 
 msgid "If you recently tried to sign in, but mistakenly entered an incorrect verification code, you can ignore this email."
+msgstr ""
+
+msgid "If you use firewalls or proxy servers, they must allow traffic to this host."
 msgstr ""
 
 msgid "If you want to re-enable two-factor authentication, visit %{two_factor_link}"
@@ -30311,9 +30311,6 @@ msgstr ""
 msgid "Job|Failed"
 msgstr ""
 
-msgid "Job|Feedback issue"
-msgstr ""
-
 msgid "Job|Finished at"
 msgstr ""
 
@@ -30321,6 +30318,9 @@ msgid "Job|Full log viewer"
 msgstr ""
 
 msgid "Job|Full screen mode is not available"
+msgstr ""
+
+msgid "Job|Give feedback"
 msgstr ""
 
 msgid "Job|Job artifacts"
@@ -31657,9 +31657,6 @@ msgstr ""
 msgid "Load more users"
 msgstr ""
 
-msgid "Load new file"
-msgstr ""
-
 msgid "Loading"
 msgstr ""
 
@@ -32600,9 +32597,6 @@ msgid "MemberRole|Overridden"
 msgstr ""
 
 msgid "MemberRole|Permission"
-msgstr ""
-
-msgid "MemberRole|Permissions"
 msgstr ""
 
 msgid "MemberRole|Reverted to LDAP group sync settings. The role will be updated after the next LDAP sync."
@@ -34077,6 +34071,9 @@ msgstr ""
 msgid "MlModelRegistry|Provide a subfolder name to organize your artifacts. Entering an existing subfolder's name will place artifacts in the existing folder"
 msgstr ""
 
+msgid "MlModelRegistry|Provide the max allowed file size"
+msgstr ""
+
 msgid "MlModelRegistry|Setting up the client"
 msgstr ""
 
@@ -34135,12 +34132,6 @@ msgid "MlModelRegistry|· %d version"
 msgid_plural "MlModelRegistry|· %d versions"
 msgstr[0] ""
 msgstr[1] ""
-
-msgid "Mlmodelregistry|Provide the max allowed file size"
-msgstr ""
-
-msgid "Mlmodelregistry|Subfolder cannot contain spaces"
-msgstr ""
 
 msgid "Mock an external CI integration."
 msgstr ""
@@ -36409,12 +36400,6 @@ msgstr ""
 msgid "Observability|Enable tracing, metrics, or logs on your project."
 msgstr ""
 
-msgid "Observability|Error: Failed to enable GitLab Observability. Please retry later."
-msgstr ""
-
-msgid "Observability|Error: Failed to load page. Try reloading the page."
-msgstr ""
-
 msgid "Observability|Failed to load observability usage data."
 msgstr ""
 
@@ -36933,9 +36918,6 @@ msgid "One or more of you personal access tokens were revoked"
 msgstr ""
 
 msgid "One or more of your %{provider} projects cannot be imported into GitLab directly because they use Subversion or Mercurial for version control, rather than Git."
-msgstr ""
-
-msgid "One or more of your dependency files are not supported, and the dependency list may be incomplete. Below is a list of supported file types."
 msgstr ""
 
 msgid "One or more of your personal access tokens has expired."
@@ -40674,9 +40656,6 @@ msgstr ""
 msgid "ProductAnalytics|Then, return to this page and continue with the setup."
 msgstr ""
 
-msgid "ProductAnalytics|This feature is in Beta and requires purchasing a quota of events, which you receive on each billing period."
-msgstr ""
-
 msgid "ProductAnalytics|This group has no projects with product analytics onboarded in the current period."
 msgstr ""
 
@@ -42511,9 +42490,6 @@ msgid "ProjectView|Wiki"
 msgstr ""
 
 msgid "Projects"
-msgstr ""
-
-msgid "Projects (%{count})"
 msgstr ""
 
 msgid "Projects API"
@@ -46724,9 +46700,6 @@ msgstr ""
 msgid "Scan pushed document contents for policy breaks. %{docs_link}"
 msgstr ""
 
-msgid "ScanExecutionPolicy|%{boldStart}Run%{boldEnd} %{typeSelector} from the project %{projectSelector} with ref %{refSelector}"
-msgstr ""
-
 msgid "ScanExecutionPolicy|%{hostname}'s timezone"
 msgstr ""
 
@@ -46763,9 +46736,6 @@ msgstr ""
 msgid "ScanExecutionPolicy|Back to edit policy"
 msgstr ""
 
-msgid "ScanExecutionPolicy|Choose a method to execute code"
-msgstr ""
-
 msgid "ScanExecutionPolicy|Conditions"
 msgstr ""
 
@@ -46796,9 +46766,6 @@ msgstr ""
 msgid "ScanExecutionPolicy|Inject"
 msgstr ""
 
-msgid "ScanExecutionPolicy|Inserted CI code block"
-msgstr ""
-
 msgid "ScanExecutionPolicy|Key"
 msgstr ""
 
@@ -46806,9 +46773,6 @@ msgid "ScanExecutionPolicy|Kubernetes agent's timezone"
 msgstr ""
 
 msgid "ScanExecutionPolicy|Link existing CI file"
-msgstr ""
-
-msgid "ScanExecutionPolicy|Linked existing CI file"
 msgstr ""
 
 msgid "ScanExecutionPolicy|Maximum number of CI-criteria is one"
@@ -46826,13 +46790,7 @@ msgstr ""
 msgid "ScanExecutionPolicy|Run %{scan} with the following options:"
 msgstr ""
 
-msgid "ScanExecutionPolicy|Run CI/CD code"
-msgstr ""
-
 msgid "ScanExecutionPolicy|Run a %{scan} scan with the following options:"
-msgstr ""
-
-msgid "ScanExecutionPolicy|Run a scan"
 msgstr ""
 
 msgid "ScanExecutionPolicy|Runner tags:"
@@ -47713,6 +47671,9 @@ msgstr ""
 msgid "Security dashboard"
 msgstr ""
 
+msgid "Security policy bot cannot be added as a group member"
+msgstr ""
+
 msgid "Security policy project is already assigned."
 msgstr ""
 
@@ -47914,12 +47875,6 @@ msgid "SecurityOrchestration|%{branchName} (in %{codeStart}%{fullPath}%{codeEnd}
 msgstr ""
 
 msgid "SecurityOrchestration|%{cadence} on %{branches}%{branchExceptionsString}"
-msgstr ""
-
-msgid "SecurityOrchestration|%{fileName} loaded succeeded."
-msgstr ""
-
-msgid "SecurityOrchestration|%{fileName} loading failed. Please try again."
 msgstr ""
 
 msgid "SecurityOrchestration|%{frameworkName} has %{projectLength} %{projects}"
@@ -48237,9 +48192,6 @@ msgstr ""
 msgid "SecurityOrchestration|List branches in the format %{boldStart}branch-name@group-name/project-name,%{boldEnd} separated by a comma (,)."
 msgstr ""
 
-msgid "SecurityOrchestration|Load CI/CD code from file"
-msgstr ""
-
 msgid "SecurityOrchestration|Logic error"
 msgstr ""
 
@@ -48309,9 +48261,6 @@ msgid "SecurityOrchestration|Only owners can update Security Policy Project"
 msgstr ""
 
 msgid "SecurityOrchestration|Override the following project settings"
-msgstr ""
-
-msgid "SecurityOrchestration|Overwrite the current CI/CD code with the new file's content?"
 msgstr ""
 
 msgid "SecurityOrchestration|Pipeline execution"
@@ -50883,6 +50832,9 @@ msgstr ""
 msgid "Some common domains are not allowed. %{learn_more_link}."
 msgstr ""
 
+msgid "Some files cannot be displayed due to their file path encoding."
+msgstr ""
+
 msgid "Some friendly information"
 msgstr ""
 
@@ -51971,6 +51923,18 @@ msgstr ""
 msgid "Subscription for %{subscription} will be removed. Do you want to continue?"
 msgstr ""
 
+msgid "Subscription for this instance cannot be synchronized. Contact GitLab customer support to obtain a license."
+msgstr ""
+
+msgid "Subscription for this instance cannot be synchronized. Contact GitLab customer support to upgrade your license."
+msgstr ""
+
+msgid "Subscription has not been synchronized recently. %{cta}"
+msgstr ""
+
+msgid "Subscription has not yet been synchronized. %{cta}"
+msgstr ""
+
 msgid "Subscription service outage"
 msgstr ""
 
@@ -51984,6 +51948,9 @@ msgid "Subscription successfully created."
 msgstr ""
 
 msgid "Subscription successfully deleted."
+msgstr ""
+
+msgid "Subscription synchronized successfully."
 msgstr ""
 
 msgid "SubscriptionBanner|Add new license"
@@ -52566,6 +52533,9 @@ msgid "Synced"
 msgstr ""
 
 msgid "Synchronize LDAP"
+msgstr ""
+
+msgid "Synchronize your subscription."
 msgstr ""
 
 msgid "Syncing…"
@@ -53696,6 +53666,12 @@ msgid "The password for your GitLab account on %{link_to_gitlab} has successfull
 msgstr ""
 
 msgid "The pipeline has been deleted"
+msgstr ""
+
+msgid "The policy is disabled"
+msgstr ""
+
+msgid "The policy is enabled"
 msgstr ""
 
 msgid "The project has already been added to your dashboard."
@@ -57244,13 +57220,25 @@ msgstr ""
 msgid "UsageQuotas|Container Registry storage statistics are not used to calculate the total project storage. Total project storage is calculated after namespace container deduplication, where the total of all unique containers is added to the namespace storage total."
 msgstr ""
 
-msgid "UsageQuotas|Health check failed"
+msgid "UsageQuotas|Failed"
 msgstr ""
 
-msgid "UsageQuotas|Health check succeeded"
+msgid "UsageQuotas|GitLab Duo should be operational."
+msgstr ""
+
+msgid "UsageQuotas|Health check results"
 msgstr ""
 
 msgid "UsageQuotas|Namespace transfer data used"
+msgstr ""
+
+msgid "UsageQuotas|Not operational. Resolve issues to use GitLab Duo."
+msgstr ""
+
+msgid "UsageQuotas|Passed"
+msgstr ""
+
+msgid "UsageQuotas|Tests are running..."
 msgstr ""
 
 msgid "UsageQuota|%{linkTitle} help link"
@@ -57938,6 +57926,9 @@ msgstr ""
 msgid "UserList|created %{timeago}"
 msgstr ""
 
+msgid "UserMapping|%{reassign_to_name} (%{reassign_to_username}) has declined your request to reassign contributions of %{source_name} (%{source_username}) on %{source_hostname} to them on %{destination_group}. To reassign these contributions to another user, visit the Members page of %{destination_group}."
+msgstr ""
+
 msgid "UserMapping|%{reassigned_by_name} (%{reassigned_by_username}) wants to reassign contributions made by %{source_name} (%{source_username}) on %{source_hostname} to you in %{destination_group}."
 msgstr ""
 
@@ -57951,6 +57942,9 @@ msgid "UserMapping|Awaiting reassignment"
 msgstr ""
 
 msgid "UserMapping|Don't reassign"
+msgstr ""
+
+msgid "UserMapping|Download the pre-filled CSV template."
 msgstr ""
 
 msgid "UserMapping|Import details:"
@@ -57972,6 +57966,9 @@ msgid "UserMapping|Notification email sent."
 msgstr ""
 
 msgid "UserMapping|Notify again"
+msgstr ""
+
+msgid "UserMapping|Once you select \"Reassign\", the processing will start and users will receive and email to accept the contribution reassignment. Once a users has accepted the reassignment, it cannot be undone. Check all data is correct before continuing."
 msgstr ""
 
 msgid "UserMapping|Original user: %{source_name} (%{source_username})"
@@ -57999,6 +57996,9 @@ msgid "UserMapping|Reassign"
 msgstr ""
 
 msgid "UserMapping|Reassign placeholder to"
+msgstr ""
+
+msgid "UserMapping|Reassign with CSV file"
 msgstr ""
 
 msgid "UserMapping|Reassigned"
@@ -58049,13 +58049,19 @@ msgstr ""
 msgid "UserMapping|Reassignment was rejected by user."
 msgstr ""
 
-msgid "UserMapping|Reassignments on %{group} waiting for review."
+msgid "UserMapping|Reassignments on %{group} rejected"
+msgstr ""
+
+msgid "UserMapping|Reassignments on %{group} waiting for review"
 msgstr ""
 
 msgid "UserMapping|Reject"
 msgstr ""
 
 msgid "UserMapping|Rejected"
+msgstr ""
+
+msgid "UserMapping|Review and complete filling out the CSV file."
 msgstr ""
 
 msgid "UserMapping|Review reassignment details"
@@ -58092,6 +58098,12 @@ msgid "UserMapping|To learn more about reassignments, %{link_start}visit the doc
 msgstr ""
 
 msgid "UserMapping|To learn more about reassignments, visit the docs (%{help_link}). If you don't recognize this request, report abuse (%{report_link})."
+msgstr ""
+
+msgid "UserMapping|Upload reviewed and completed CSV file."
+msgstr ""
+
+msgid "UserMapping|Use a CSV file to reassign contributions from placeholder users to existing group members. This can be done in a few steps. %{linkStart}Learn more about matching users by CSV%{linkEnd}."
 msgstr ""
 
 msgid "UserMapping|You have approved the reassignment of contributions from %{strong_open}%{source_user_name} (@%{source_username})%{strong_close} on %{strong_open}%{source_hostname}%{strong_close} to yourself on the group %{strong_open}%{destination_group}%{strong_close}. Reassignment processing is in progress. You&#39;ll have access to the group soon."
@@ -58833,9 +58845,6 @@ msgid "View issues"
 msgstr ""
 
 msgid "View it on GitLab"
-msgstr ""
-
-msgid "View job"
 msgstr ""
 
 msgid "View job currently using resource"
@@ -60980,6 +60989,9 @@ msgid "Workspaces|A workspace is a virtual sandbox environment for your code in 
 msgstr ""
 
 msgid "Workspaces|Active"
+msgstr ""
+
+msgid "Workspaces|Agents"
 msgstr ""
 
 msgid "Workspaces|Agents connect workspaces to your Kubernetes cluster. To create a workspace with an allowed agent, group members must have at least the Developer role."
